@@ -1,0 +1,14 @@
+model: yolo26s.pt
+tracker: bytetrack.yaml
+confidence: 0.1
+display_confidence: 0.25
+iou: 0.5
+imgsz: 640
+device: auto
+trail_length: 40
+classes: null
+counting: false
+max_width: 0
+min_track_hits: 3
+class_window: 15
+track_buffer: 30

@@ -1,0 +1,11 @@
+.venv/
+.uv-cache/
+__pycache__/
+.pytest_cache/
+.test-temp/
+*.pt
+*.db
+data/input/*
+data/output/*
+!data/input/.gitkeep
+!data/output/.gitkeep
